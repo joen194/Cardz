@@ -40,3 +40,5 @@ C:\Users\timas\Source\Repos\Cardz\CardGames\CardGames\obj\Debug\CardGames.dll.md
 C:\Users\timas\Source\Repos\Cardz\CardGames\CardGames\bin\Debug\CardGames.dll.mdb
 C:\Users\timas\Source\Repos\Cardz\CardGames\CardGames\obj\Debug\CardGames.dll.mdb
 C:\Users\timas\Source\Repos\Cardz\CardGames\CardGames\bin\Debug\CardGames.dll.mdb
+C:\Users\timas\Source\Repos\Cardz\CardGames\CardGames\obj\Debug\CardGames.dll.mdb
+C:\Users\timas\Source\Repos\Cardz\CardGames\CardGames\bin\Debug\CardGames.dll.mdb
