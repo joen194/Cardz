@@ -1,11 +1,11 @@
 
 #al die debug shit eruit laten 
 
-/CardGames/CardGames.Droid/bin/Android/Debug
-/CardGames/CardGames.Droid/obj/Debug
-/CardGames/CardGames.WP81/obj/Debug
+CardGames/CardGames.Droid/bin/Android/Debug
+CardGames/CardGames.Droid/obj/Debug
+CardGames/CardGames.WP81/obj/Debug
 
-/CardGames/CardGames.iOS/obj/iPhone/Debug
+CardGames/CardGames.iOS/obj/iPhone/Debug
 
-/CardGames/CardGames/obj/Debug
-/CardGames/CardGames/bin/Debug
+CardGames/CardGames/obj/Debug
+CardGames/CardGames/bin/Debug
