@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CocosSharp;
 
 namespace CardGames
 {
@@ -10,10 +11,12 @@ namespace CardGames
     {
         const int MaxCards = 52; //maximum van kaarten
         private Card[] deck; //dit is de verzameling van alle kaarten
+        private CCSprite HartenAas = new CCSprite("img/AasHarten.png");
 
         public DeckOfCards() //de constuctor 
         {
             deck = new Card[MaxCards];
+            
         }
 
         public Card[] getDeck { get { return deck; } } //voor in de andere klasse te plaatsen
@@ -25,7 +28,14 @@ namespace CardGames
             {
                 foreach (Value v in Enum.GetValues(typeof(Value)))
                 {
-                    deck[i] = new Card { mySuit = s, myValue = v };
+                    if (s == Suits.Diamond)
+                    {
+                        if (v == Value.Ace)
+                        {
+                            deck[i] = new Card { mySuit = s, myValue = v, myPrint = HartenAas};
+                        }
+                    }
+                    
                     i++;
                 }
             }

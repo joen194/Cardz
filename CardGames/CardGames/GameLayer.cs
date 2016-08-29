@@ -10,15 +10,23 @@ namespace CardGames
 
         // Define a label variable
         CCLabel label;
+        CCSprite kaart;
+        Card[] boekKaarten = new DeckOfCards[52];
+        DeckOfCards initKaarten;
 
         public GameLayer() : base(CCColor4B.Blue)
         {
 
             // create and initialize a Label
             label = new CCLabel("Hello CocosSharp", "Fonts/MarkerFelt", 22, CCLabelFormat.SpriteFont);
+            initKaarten.setDeck();
+            boekKaarten = initKaarten.getDeck;
+            kaart = boekKaarten[1].myPrint;
+            kaart.PositionX = 100;
+            kaart.PositionX = 100;
 
             // add the label as a child to this Layer
-            AddChild(label);
+            AddChild(kaart);
 
         }
 
